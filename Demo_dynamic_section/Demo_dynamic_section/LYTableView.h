@@ -15,10 +15,13 @@
 @protocol LYTableViewDynamicDelegate<NSObject>
 
 @required
-// 动态分区的具体信息
+// 配置动态分区的具体信息
 - (NSMutableArray <LYTableViewDynamicSectionInfo*>*)optionsOfDynamicSectionInTableView;
 
-/* 以下为UITableView原代理方法对应的带有动态信息的新方法，默认常用的几个代理方法，并未给全所有，如果有其他方法需要，可以自行添加*/
+/* 
+ 以下为UITableView原代理方法对应的带有动态信息的新方法，默认常用的几个代理方法，并未给全所有，如果有其他方法需要，可以自行添加
+ ***考虑使用的方便性和关联性，在原方法中添加了dynamicPath属性***
+ */
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView; // 总分区数不需要动态化
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section dynamicPath:(LYTableViewDynamicPath *)dynamicPath;
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath dynamicPath:(LYTableViewDynamicPath *)dynamicPath;
