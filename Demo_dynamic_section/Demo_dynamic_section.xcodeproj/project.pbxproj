@@ -8,10 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		C1355DAD1F107E3D009183D0 /* LYTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C1355DAC1F107E3D009183D0 /* LYTableView.m */; };
-		C1355DB01F10B14F009183D0 /* DataBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = C1355DAF1F10B14F009183D0 /* DataBuilder.m */; };
-		C1890E861F0F9D23006E3213 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C1890E851F0F9D23006E3213 /* UserModel.m */; };
-		C1890E891F0FA1B4006E3213 /* HouseMode.m in Sources */ = {isa = PBXBuildFile; fileRef = C1890E881F0FA1B4006E3213 /* HouseMode.m */; };
-		C1890E8C1F0FA552006E3213 /* CityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C1890E8B1F0FA552006E3213 /* CityModel.m */; };
 		C1B31B7F1F0E30E200B320F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B31B7E1F0E30E200B320F7 /* main.m */; };
 		C1B31B821F0E30E200B320F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B31B811F0E30E200B320F7 /* AppDelegate.m */; };
 		C1B31B851F0E30E200B320F7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B31B841F0E30E200B320F7 /* ViewController.m */; };
@@ -20,6 +16,7 @@
 		C1B31B8D1F0E30E200B320F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1B31B8B1F0E30E200B320F7 /* LaunchScreen.storyboard */; };
 		C1B31B981F0E30E200B320F7 /* Demo_dynamic_sectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B31B971F0E30E200B320F7 /* Demo_dynamic_sectionTests.m */; };
 		C1B31BA31F0E30E200B320F7 /* Demo_dynamic_sectionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B31BA21F0E30E200B320F7 /* Demo_dynamic_sectionUITests.m */; };
+		C1CD50481FE917430007642E /* DataBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = C1CD50471FE917430007642E /* DataBuilder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,14 +39,6 @@
 /* Begin PBXFileReference section */
 		C1355DAB1F107E3D009183D0 /* LYTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYTableView.h; sourceTree = "<group>"; };
 		C1355DAC1F107E3D009183D0 /* LYTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYTableView.m; sourceTree = "<group>"; };
-		C1355DAE1F10B14F009183D0 /* DataBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataBuilder.h; sourceTree = "<group>"; };
-		C1355DAF1F10B14F009183D0 /* DataBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataBuilder.m; sourceTree = "<group>"; };
-		C1890E841F0F9D23006E3213 /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
-		C1890E851F0F9D23006E3213 /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
-		C1890E871F0FA1B4006E3213 /* HouseMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HouseMode.h; sourceTree = "<group>"; };
-		C1890E881F0FA1B4006E3213 /* HouseMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HouseMode.m; sourceTree = "<group>"; };
-		C1890E8A1F0FA552006E3213 /* CityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityModel.h; sourceTree = "<group>"; };
-		C1890E8B1F0FA552006E3213 /* CityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityModel.m; sourceTree = "<group>"; };
 		C1B31B7A1F0E30E200B320F7 /* Demo_dynamic_section.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo_dynamic_section.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1B31B7E1F0E30E200B320F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C1B31B801F0E30E200B320F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -66,6 +55,8 @@
 		C1B31B9E1F0E30E200B320F7 /* Demo_dynamic_sectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Demo_dynamic_sectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1B31BA21F0E30E200B320F7 /* Demo_dynamic_sectionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_dynamic_sectionUITests.m; sourceTree = "<group>"; };
 		C1B31BA41F0E30E200B320F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1CD50461FE917430007642E /* DataBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataBuilder.h; sourceTree = "<group>"; };
+		C1CD50471FE917430007642E /* DataBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataBuilder.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,18 +109,12 @@
 			children = (
 				C1B31B801F0E30E200B320F7 /* AppDelegate.h */,
 				C1B31B811F0E30E200B320F7 /* AppDelegate.m */,
-				C1B31B831F0E30E200B320F7 /* ViewController.h */,
-				C1B31B841F0E30E200B320F7 /* ViewController.m */,
 				C1355DAB1F107E3D009183D0 /* LYTableView.h */,
 				C1355DAC1F107E3D009183D0 /* LYTableView.m */,
-				C1355DAE1F10B14F009183D0 /* DataBuilder.h */,
-				C1355DAF1F10B14F009183D0 /* DataBuilder.m */,
-				C1890E8A1F0FA552006E3213 /* CityModel.h */,
-				C1890E8B1F0FA552006E3213 /* CityModel.m */,
-				C1890E841F0F9D23006E3213 /* UserModel.h */,
-				C1890E851F0F9D23006E3213 /* UserModel.m */,
-				C1890E871F0FA1B4006E3213 /* HouseMode.h */,
-				C1890E881F0FA1B4006E3213 /* HouseMode.m */,
+				C1B31B831F0E30E200B320F7 /* ViewController.h */,
+				C1B31B841F0E30E200B320F7 /* ViewController.m */,
+				C1CD50461FE917430007642E /* DataBuilder.h */,
+				C1CD50471FE917430007642E /* DataBuilder.m */,
 				C1B31B861F0E30E200B320F7 /* Main.storyboard */,
 				C1B31B891F0E30E200B320F7 /* Assets.xcassets */,
 				C1B31B8E1F0E30E200B320F7 /* Info.plist */,
@@ -299,11 +284,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1355DAD1F107E3D009183D0 /* LYTableView.m in Sources */,
-				C1355DB01F10B14F009183D0 /* DataBuilder.m in Sources */,
-				C1890E891F0FA1B4006E3213 /* HouseMode.m in Sources */,
-				C1890E861F0F9D23006E3213 /* UserModel.m in Sources */,
+				C1CD50481FE917430007642E /* DataBuilder.m in Sources */,
 				C1B31B851F0E30E200B320F7 /* ViewController.m in Sources */,
-				C1890E8C1F0FA552006E3213 /* CityModel.m in Sources */,
 				C1B31B821F0E30E200B320F7 /* AppDelegate.m in Sources */,
 				C1B31B7F1F0E30E200B320F7 /* main.m in Sources */,
 			);

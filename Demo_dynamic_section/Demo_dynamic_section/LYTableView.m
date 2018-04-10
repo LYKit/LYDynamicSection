@@ -25,6 +25,10 @@
     self.dataSource = self;
 }
 
+- (void)reloadData {
+    [super reloadData];
+}
+
 
 #pragma mark - 分区动态化规则
 // 返回对应的枚举分区
@@ -153,3 +157,8 @@
 @implementation LYTableViewDynamicSectionInfo
 
 @end
+
+@implementation LYBaseModel
+
+@end
+
