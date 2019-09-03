@@ -33,7 +33,7 @@
 - (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section dynamicPath:(LYTableViewDynamicPath *)dynamicPath;
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section dynamicPath:(LYTableViewDynamicPath *)dynamicPath;
 - (UIView *)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section dynamicPath:(LYTableViewDynamicPath *)dynamicPath;
-
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath dynamicPath:(LYTableViewDynamicPath *)dynamicPath;
 
 
 @end

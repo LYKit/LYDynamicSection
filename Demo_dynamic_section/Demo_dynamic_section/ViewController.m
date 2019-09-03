@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "LYTableView.h"
 #import "DataBuilder.h"
+#import "ViewControllerTwo.h"
 
 typedef NS_ENUM(NSUInteger, EnumDynamicSection) {
     EnumDynamicSection_1 = 0,
@@ -223,5 +224,8 @@ typedef NS_ENUM(NSUInteger, EnumCellStyle) {
     return 50;
 }
 
+- (IBAction)didPressedTwo:(id)sender {
+    [self.navigationController pushViewController:[ViewControllerTwo new] animated:YES];
+}
 
 @end

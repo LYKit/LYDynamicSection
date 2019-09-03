@@ -121,25 +121,32 @@
     return 0;
 }
 - (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section{
-    if ([_delegateDynamic respondsToSelector:@selector(tableView:heightForFooterInSection:)]) {
+    if ([_delegateDynamic respondsToSelector:@selector(tableView:heightForFooterInSection:dynamicPath:)]) {
         LYTableViewDynamicPath *dynamicInfo = [self analysisDynamicSectionRuleWithSection:section];
         return [_delegateDynamic tableView:tableView heightForFooterInSection:section dynamicPath:dynamicInfo];
     }
     return 0;
 }
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section{
-    if ([_delegateDynamic respondsToSelector:@selector(tableView:viewForHeaderInSection:)]) {
+    if ([_delegateDynamic respondsToSelector:@selector(tableView:viewForHeaderInSection:dynamicPath:)]) {
         LYTableViewDynamicPath *dynamicInfo = [self analysisDynamicSectionRuleWithSection:section];
         return [_delegateDynamic tableView:tableView viewForHeaderInSection:section dynamicPath:dynamicInfo];
     }
     return nil;
 }
 - (UIView *)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section{
-    if ([_delegateDynamic respondsToSelector:@selector(tableView:viewForFooterInSection:)]) {
+    if ([_delegateDynamic respondsToSelector:@selector(tableView:viewForFooterInSection:dynamicPath:)]) {
         LYTableViewDynamicPath *dynamicInfo = [self analysisDynamicSectionRuleWithSection:section];
         return [_delegateDynamic tableView:tableView viewForFooterInSection:section dynamicPath:dynamicInfo];
     }
     return nil;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    if ([_delegateDynamic respondsToSelector:@selector(tableView:didSelectRowAtIndexPath:dynamicPath:)]) {
+        LYTableViewDynamicPath *dynamicInfo = [self analysisDynamicSectionRuleWithSection:indexPath.section];
+        [_delegateDynamic tableView:tableView didSelectRowAtIndexPath:indexPath dynamicPath:dynamicInfo];
+    }
 }
 
 
